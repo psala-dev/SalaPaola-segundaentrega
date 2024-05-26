@@ -1,0 +1,40 @@
+/*  */
+header {
+    background-color: #cd9c31;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.header {
+    width: 50px; 
+}
+
+.header-2 {
+width: 20px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.section-one {
+    width: 25rem;
+}
+
+.nosotros {
+    width: 30rem;
+}
+
+footer {
+    background-color: #cd9c31;
+    font-size: 12px;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 20px;
+}
