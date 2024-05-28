@@ -10,53 +10,52 @@
     <!-- CSS -->
     <link rel="stylesheet" href="css/styles.css">
     <!-- Fin CSS -->
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <!-- Fin Google Fonts -->
 
 </head>
 
 <body>
-
+    
     <!-- Header -->
     <header>
-        <img src="assets/logo-icon.png" alt="Logo Letras y Especias" class="header">
+        <img id="arriba" src="assets/logo-icon.png" alt="Logo Letras y Especias" class="header-logo">
         <!-- Navbar -->
         <nav>
             <ul>
                 <li>
-                    <a href="index.html">
-                        Inicio
-                    </a>
+                    <a href="index.html">Inicio</a>
                 </li>
                 <li>
-                    <a href="html/nosotros.html">
-                        Sobre Nosotros
-                    </a>
+                    <a href="html/nosotros.html">Sobre Nosotros</a>
                 </li>
                 <li>
-                    <a href="html/libros.html">
-                        Libros
-                    </a>
+                    <a href="html/libros.html">Libros</a>
                 </li>
                 <li>
-                    <a href="html/cafe.html">
-                        Café
-                    </a>
+                    <a href="html/cafe.html">Café</a>
                 </li>
                 <li>
-                    <a href="html/tienda.html">
-                        Tienda
-                    </a>
+                    <a href="html/tienda.html">Tienda</a>
                 </li>
                 <li>
-                    <a href="html/contacto.html">
-                        Contáctanos
-                    </a>
+                    <a href="html/contacto.html">Contáctanos</a>
                 </li>
             </ul>
         </nav>
         <!-- Fin Navbar -->
         
+        <!-- Login -->
         <img src="assets/user-icon.png" alt="Usuario" class="header-2">
+        <!-- Fin Login -->
+
+        <!-- Tienda-->
         <img src="assets/market-icon.png" alt="Tienda" class="header-2">
+        <!--Fin Tienda -->
     </header>
     <!-- Fin header -->
 
@@ -74,30 +73,35 @@
         <section>
             <h1>Sobre Nosotros</h1>
 
-            <p>“Letras y Especias” se caracteriza por su estilo bohemio y estéticamente atractivo, donde el encanto vintage se entrelaza con una vibra juvenil y diversa. Aquí, la alegría se encuentra en cada rincón, su  ambiente cálido y atmósfera única la convierten en un refugio acogedor para todos, ya sea que desees un buen libro para sumergirte en un mundo fascinante o un delicioso café para disfrutar.</p>
+            <p> <span>“Letras y Especias”</span> se caracteriza por su estilo bohemio y estéticamente atractivo, donde el encanto vintage se entrelaza con una vibra juvenil y diversa. Aquí, la alegría se encuentra en cada rincón, su  ambiente cálido y atmósfera única la convierten en un refugio acogedor para todos, ya sea que desees un buen libro para sumergirte en un mundo fascinante o un delicioso café para disfrutar.</p>
 
             <img src="assets/pexels-suzy-hazelwood.jpg" alt="Foto cafe y libros" class="nosotros">
         </section>
         <!-- Fin Nosotros -->
 
         <!-- Libros -->
-        <section>
+        <section class="container-libros">
             <h2>Libros</h2>
-
-            <img src="assets/icons8-libros-white.png" alt="Libro">
+            <div class="container-libros-img">
+                 <img src="assets/icons8-libros-white.png" alt="Libro">
+       
+                 <img src="assets/icons8-libros.png" alt="Libro">
+       
+                 <img src="assets/icons8-libros-white.png" alt="Libro">
+           
+                 <img src="assets/icons8-libros.png" alt="Libro">
+            
+                <img src="assets/icons8-libros-white.png" alt="Libro">
+            </div>
+            <div class="container-libros-p">
+                
+            <p>Autor y Titulo</p>
+            <p>Autor y Titulo</p>
+            <p>Autor y Titulo</p>
+            <p>Autor y Titulo</p>
             <p>Autor y Titulo</p>
 
-            <img src="assets/icons8-libros.png" alt="Libro">
-            <p>Autor y Titulo</p>
-
-            <img src="assets/icons8-libros-white.png" alt="Libro">
-            <p>Autor y Titulo</p>
-
-            <img src="assets/icons8-libros.png" alt="Libro">
-            <p>Autor y Titulo</p>
-
-            <img src="assets/icons8-libros-white.png" alt="Libro">
-            <p>Autor y Titulo</p>
+            </div>
         </section>
         <!-- Fin Libros -->
 
@@ -139,10 +143,13 @@
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18754.43451106599!2d-38.09178292751315!3d-54.01512298161462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbecbdf5350d49dd7%3A0x64ae686007bd9c3f!2sJohnson%20Cove!5e0!3m2!1ses-419!2suy!4v1714509141142!5m2!1ses-419!2suy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
             <input type="email" name="E-mail" id="example@example.com"> 
-            <input type="button" value="Suscribite">
+            <input type="button" value="Suscribite" class="boton">
         </section>
         <!-- Fin Contáctanos -->
-      
+      <!-- Volver arriba -->
+      <div>
+        <a href="#arriba" class="boton-arriba">Volver arriba</a></div>
+    
     </main>
     <!-- Fin Main -->
 
@@ -151,13 +158,13 @@
         <p>2024.Letras y Especias </p>
         <ul>
             <li>
-                <a href="https://www.facebook.com/">Facebook</a>
+                <a href="https://www.facebook.com/" target="_blank">Facebook</a>
             </li>
             <li>
-                <a href="https://www.instagram.com/">Instagram</a>
+                <a href="https://www.instagram.com/" target="_blank">Instagram</a>
             </li>
             <li>
-                <a href="https://twitter.com/">X</a>
+                <a href="https://twitter.com/" target="_blank">X</a>
             </li>
         </ul>
     </footer>
